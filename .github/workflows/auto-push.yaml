@@ -2,7 +2,7 @@ name: auto-push
 
 on:
   schedule:
-    - cron: '0 * * * *' # This cron expression represents every hour at the 0th minute
+    - cron: '*/5 * * * *'# This cron expression represents every hour at the 0th minute
 
 jobs:
   commit:
